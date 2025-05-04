@@ -73,6 +73,43 @@ The script performs the following steps:
 
 ---
 
+## 📦 Requirements
+
+To use this toolkit, your system must have:
+
+- **Bash** — A POSIX-compatible shell (Linux, macOS Terminal, WSL, or Git Bash on Windows)
+- **OpenSSL** — Version 1.1 or later
+
+You can check if OpenSSL is available by running:
+
+```
+openssl version
+```
+
+If your system shows `LibreSSL` (as is common on macOS), we recommend installing OpenSSL via [Homebrew](https://brew.sh/):
+
+```
+brew install openssl
+export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
+```
+
+### 🪟 Windows Notes
+
+On Windows, you can run this script in:
+
+- **WSL (Windows Subsystem for Linux)** — Recommended and fully supported
+- **Git Bash or MSYS2** — Works with OpenSSL installed
+
+If OpenSSL is not recognized in Git Bash, install it using MSYS2:
+
+```
+pacman -S mingw-w64-ucrt-x86_64-openssl
+```
+
+> 🛠 Make sure `openssl` is available in your system `PATH`.
+
+---
+
 ## 🔧 How to Use
 
 ### 1. Clone the repository
