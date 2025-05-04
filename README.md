@@ -12,12 +12,43 @@ This repository provides a simple and configurable shell script for generating *
 
 ## ✨ Use Cases
 
-This toolkit is ideal for:
+This toolkit is designed for developers, teams, and individuals who need to **digitally sign documents or content** without relying on paid or external certificate authorities (CAs). It provides an accessible and reproducible way to generate trusted `.p12`-formatted self-signed certificates for a wide range of purposes.
 
-- Developers or freelancers who need to **sign PDF contracts** or deliverables.
-- Internal teams who want to **digitally sign emails or scripts** without using paid certificate authorities (CA).
-- Testers who want to simulate certificate-based authentication in **local or staging environments**.
-- Anyone who needs **quick, personal-use digital signatures** without relying on external infrastructure.
+### ✅ Examples of Where This Toolkit Is Useful
+
+- **📄 Freelancers & Remote Workers**  
+  Digitally sign project contracts, invoices, NDAs, and other documents in PDF format to give them a professional and verifiable finish — without needing to print, scan, or physically sign.
+
+- **💼 Internal Corporate Use**  
+  Use internally trusted self-signed certificates to sign internal tools, PDFs, and scripts for distribution across internal systems where full CA trust isn't necessary.
+
+- **🧪 QA & Test Automation**  
+  Create certificates to test or simulate signature validation flows (PDF readers, signature checking scripts, etc.) in staging and development environments.
+
+- **📬 Personal Email Signing (S/MIME)**  
+  Sign your personal or organizational emails using tools like Thunderbird or Outlook for better email authenticity and identity verification.
+
+- **💻 Developer Code Signing (Non-public)**  
+  Sign executable scripts or JAR files during development — useful for internal testing or early distribution to trusted users, especially in closed environments.
+
+- **📝 LibreOffice / MS Word Document Signing**  
+  Digitally sign ODT, DOCX, XLSX, etc. to demonstrate integrity and authorship without involving third-party CAs.
+
+- **🌐 Self-hosted Services**  
+  Generate internal TLS certificates for use in self-hosted environments, development servers, Docker containers, etc.
+
+---
+
+### ⚠️ When Not to Use This
+
+While self-signed certificates are great for personal or internal use, **they are not appropriate for production use on public platforms**, such as:
+
+- Public-facing web servers (instead, use Let's Encrypt or a trusted CA)
+- Official software distributions (e.g. EXEs, DMGs, MSI installers)
+- Legal documents requiring compliance with eIDAS, Adobe AATL, or national trust lists
+
+If you need public or legally verifiable signatures, you should obtain a certificate from a **trusted certificate authority (CA)**.
+
 
 ---
 
