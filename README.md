@@ -2,7 +2,7 @@
 
 This repository provides a simple and configurable shell script for generating **self-signed digital certificates** in `.p12` (PKCS#12) format. These certificates can be used for **digitally signing** various types of content such as:
 
-- 📄 PDF documents (e.g. via JSignPdf, Acrobat, PDF Studio)
+- 📄 PDF documents (e.g. via [JSignPdf](https://jsignpdf.sourceforge.net/), Acrobat, PDF Studio)
 - 📬 Email messages (S/MIME in Thunderbird, Outlook)
 - 💻 Software code and installers (JAR, EXE, MSI, scripts)
 - 📝 Office documents (LibreOffice, Microsoft Word)
