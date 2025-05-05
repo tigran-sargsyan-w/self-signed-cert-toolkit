@@ -10,6 +10,20 @@ This repository provides a simple and configurable shell script for generating *
 
 ---
 
+## 📚 Table of Contents
+
+- [✨ Use Cases](#-use-cases)
+- [⚙️ What It Does](#️-what-it-does)
+- [📦 Output Files](#-output-files)
+- [📦 Requirements](#-requirements)
+- [🔧 How to Use](#-how-to-use)
+- [✅ Example Output](#-example-output)
+- [📘 Signing Guides](#-signing-guides)
+- [📌 Notes & Considerations](#-notes--considerations)
+- [🛡️ Security Reminder](#️-security-reminder)
+
+---
+
 ## ✨ Use Cases
 
 This toolkit is designed for developers, teams, and individuals who need to **digitally sign documents or content** without relying on paid or external certificate authorities (CAs). It provides an accessible and reproducible way to generate trusted `.p12`-formatted self-signed certificates for a wide range of purposes.
@@ -173,6 +187,19 @@ You will be asked to:
    🏷  Alias (for signing): "First_Name Last_Name Signature"
    🔐 P12 Password:        example-password
 ```
+
+---
+
+## 📘 Signing Guides
+
+To use your `.p12` certificate with specific tools, check the following guides:
+
+| Tool             | Guide                                      |
+|------------------|--------------------------------------------|
+| 🖥️ JSignPdf       | [PDF signing with JSignPdf →](docs/JSignPdf_Usage_Guide.md)     |
+| 📝 Adobe Acrobat  | [PDF signing with Adobe Acrobat →](docs/Acrobat_Usage_Guide.md) |
+| 📬 Thunderbird    | _(Coming soon)_                            |
+| 🧾 LibreOffice    | _(Coming soon)_                            |
 
 ---
 
