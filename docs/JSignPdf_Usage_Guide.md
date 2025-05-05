@@ -38,7 +38,7 @@ java -jar JSignPdf.jar
 
 ### 📷 Example: JSignPdf GUI setup
 
-![JSignPdf Main Window](docs/images/jsignpdf_main.png)
+![JSignPdf Main Window](../docs/images/jsignpdf_main.png)
 
 ### 🖼️ 4. Add a **Visible Signature** (Optional)
 
@@ -51,7 +51,7 @@ To display a visible signature block (like a stamp or label) on a page of the PD
 - Check the box: `visible signature`
 - This will activate the **"Settings"** button.
 
-![JSignPdf Visible](docs/images/jsignpdf_visible.png)
+![JSignPdf Visible](../docs/images/jsignpdf_visible.png)
 
 **2. Open visual signature settings**
 
@@ -59,13 +59,13 @@ To display a visible signature block (like a stamp or label) on a page of the PD
 
 **3. Click `Preview & Select`**
 
-![JSignPdf Visible Setting](docs/images/jsignpdf_visible_setting.png)
+![JSignPdf Visible Setting](../docs/images/jsignpdf_visible_setting.png)
 
 - In the settings window, click the **`Preview & Select`** button
 - This will open a visual preview of the PDF
 - Select the **page and area** where you want the visible signature to appear by dragging a rectangle
 
-![JSignPdf Main Window](docs/images/jsignpdf_visible_preview.png)
+![JSignPdf Main Window](../docs/images/jsignpdf_visible_preview.png)
 
 📸 You can use zoom or scroll to position it precisely.
 
@@ -90,11 +90,11 @@ You'll return to the main screen.
 
 Click the `Sign it` button.
 
-![JSignPdf Sign it](docs/images/jsignpdf_sign_it.png)
+![JSignPdf Sign it](../docs/images/jsignpdf_sign_it.png)
 
 If everything is correct, your PDF will be signed and saved.
 
-![JSignPdf Signed](docs/images/jsignpdf_signed.png)
+![JSignPdf Signed](../docs/images/jsignpdf_signed.png)
 
 ---
 
