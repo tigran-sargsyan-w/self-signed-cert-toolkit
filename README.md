@@ -198,8 +198,6 @@ To use your `.p12` certificate with specific tools, check the following guides:
 |------------------|--------------------------------------------|
 | 🖥️ JSignPdf       | [PDF signing with JSignPdf →](docs/JSignPdf_Usage_Guide.md)     |
 | 📝 Adobe Acrobat  | [PDF signing with Adobe Acrobat →](docs/Acrobat_Usage_Guide.md) |
-| 📬 Thunderbird    | _(Coming soon)_                            |
-| 🧾 LibreOffice    | _(Coming soon)_                            |
 
 ---
 
